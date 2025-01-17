@@ -17,6 +17,11 @@
                 <i class="fa-solid fa-house me-2"></i> Dashboard
             </a>
         </li>
+        <li class="nav-item">
+            <a href="admin_projects.php" class="nav-link active">
+                <i class="fa-solid fa-house me-2"></i> Quản lý dự án
+            </a>
+        </li>
         <li>
             <a href="manager_banners.php" class="nav-link">
                 <i class="fa-solid fa-users me-2"></i> Quản lý Banner
