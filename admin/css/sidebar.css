@@ -1,0 +1,37 @@
+/* 🌟 Sidebar Admin */
+.admin-sidebar {
+    height    : 100vh;
+    /* Full height */
+    position  : fixed;
+    /* Stick to the side */
+    top       : 0;
+    left      : 0;
+    overflow-y: auto;
+    /* Scrollable if content overflows */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.admin-sidebar .nav-link {
+    color      : #333;
+    font-weight: 500;
+    transition : background-color 0.3s ease, color 0.3s ease;
+}
+
+.admin-sidebar .nav-link.active {
+    background-color: #007bff;
+    color           : white;
+}
+
+.admin-sidebar .nav-link:hover {
+    background-color: #f8f9fa;
+    color           : #007bff;
+}
+
+.admin-sidebar .dropdown-menu {
+    min-width: 180px;
+}
+
+.admin-sidebar img {
+    width : 40px;
+    height: 40px;
+}

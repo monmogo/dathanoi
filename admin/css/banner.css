@@ -1,0 +1,50 @@
+/* Căn chỉnh bảng */
+.table img {
+    border-radius: 5px;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+/* Nút Thêm Banner */
+.btn-primary {
+    background-color: #007bff;
+    border-color    : #007bff;
+}
+
+/* Modal */
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom   : 1px solid #dee2e6;
+}
+
+.modal-footer {
+    border-top: 1px solid #dee2e6;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+/* Tựa đề trang */
+h2 {
+    color: #333;
+}
+
+.btn-close {
+    outline: none;
+}
+
+/* Tối ưu giao diện nhỏ */
+@media (max-width: 768px) {
+    .table {
+        font-size: 14px;
+    }
+
+    .table img {
+        width : 80px;
+        height: auto;
+    }
+}

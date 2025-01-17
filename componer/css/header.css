@@ -1,0 +1,132 @@
+/* 🌟 Header */
+.navbar {
+    padding: 10px 0;
+}
+
+/* 🌟 Logo */
+.navbar-brand img {
+    height   : 45px;
+    max-width: 100%;
+}
+
+/* 🌟 Nút menu (navbar-toggler) */
+.navbar-toggler {
+    border      : none;
+    padding     : 5px 8px;
+    outline     : none;
+    box-shadow  : none;
+    margin-right: 10px;
+    /* Đẩy nút sát nút tư vấn */
+}
+
+/* 🌟 Menu chính */
+.navbar-nav .nav-link {
+    font-size     : 15px;
+    font-weight   : 500;
+    color         : #333;
+    text-transform: uppercase;
+    margin-right  : 15px;
+    transition    : 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #c89619;
+}
+
+/* 🌟 Nút tư vấn */
+/* 🌟 Nút tư vấn */
+.btn-outline-primary {
+    color        : #007bff;
+    border-color : #007bff;
+    border-radius: 20px;
+    padding      : 6px 15px;
+    font-size    : 14px;
+    white-space  : nowrap;
+}
+
+/* 🌟 Căn chỉnh đúng vị trí */
+.d-flex.align-items-center {
+    gap: 10px;
+    /* Đảm bảo khoảng cách hợp lý giữa nút menu và nút tư vấn */
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color           : white;
+}
+
+/* 🌟 Responsive */
+@media (max-width: 991px) {
+    .navbar {
+        padding: 8px 0;
+    }
+
+    /* Menu sẽ hiển thị dọc trên mobile */
+    .navbar-collapse {
+        text-align: center;
+        background: white;
+        padding   : 10px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+    /* Giảm kích thước logo */
+    .navbar-brand img {
+        height: 40px;
+    }
+
+    /* Thu nhỏ nút tư vấn */
+    .btn-outline-primary {
+        padding  : 5px 12px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        padding: 5px 0;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+
+    .btn-outline-primary {
+        font-size: 12px;
+    }
+}
+
+/* 🌟 Ẩn chữ trên Mobile nhưng giữ icon */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 5px 0;
+    }
+
+    .navbar-toggler {
+        margin-right: 5px;
+        /* Đẩy sát nút tư vấn */
+    }
+
+    /* Ẩn chữ, chỉ hiển thị icon */
+    .btn-outline-primary {
+        width          : 40px;
+        height         : 40px;
+        padding        : 0;
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+        font-size      : 0;
+    }
+
+    .btn-outline-primary::before {
+        content  : "📩";
+        /* Hoặc thay bằng icon */
+        font-size: 18px;
+    }
+}
