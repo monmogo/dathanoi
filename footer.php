@@ -169,9 +169,9 @@
             <!-- Cột 1: Logo & Thông tin liên hệ -->
             <div class="footer-info">
                 <img src="componer/asset/image/logo.png" alt="Dandautu Logo" class="footer-logo">
-                <p><strong>E-mail:</strong> lienhe@dandautu.vn</p>
-                <p><strong>Điện thoại:</strong> 0123 456 789</p>
-                <p><strong>Địa chỉ:</strong> M4-L20 Khu Đô Thị Mới Dương Nội, Quận Hà Đông, TP Hà Nội.</p>
+                <p><strong>E-mail:</strong> </p>
+                <p><strong>Điện thoại:</strong> </p>
+                <p><strong>Địa chỉ:</strong> </p>
                 <p><strong>Social:</strong>
                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -194,7 +194,7 @@
 
             <!-- Cột 3: Đăng ký theo dõi -->
             <div class="footer-subscribe">
-                <h4>Đăng ký theo dõi dandautu.vn</h4>
+                <h4>Đăng ký theo dõi dathanoi.vn</h4>
                 <p>Nhận tin tức, biến động thị trường bất động sản nhanh nhất & chính xác nhất.</p>
                 <form action="#" method="post">
                     <input type="email" placeholder="Nhập Email..." required>
@@ -208,10 +208,6 @@
         </div>
 
         <!-- Bản quyền -->
-        <div class="footer-bottom">
-            <p>CÔNG TY CỔ PHẦN THƯƠNG MẠI BILLIONS</p>
-            <p>Số ĐKKD 0107704947 do Sở Kế hoạch và Đầu tư TP Hà Nội cấp ngày 13 tháng 01 năm 2017.</p>
-            <p>Bản quyền thuộc về <strong>dandautu.vn</strong> © 2018 - 2023.</p>
-        </div>
+
     </div>
 </footer>

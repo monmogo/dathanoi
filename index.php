@@ -94,8 +94,6 @@
                     ["title" => "Nhà phố Vinhomes", "size" => "5,800 m²", "type" => "Nhà phố", "status" => "Mở bán", "image" => "componer/asset/image/duan.jpg"],
                     ["title" => "Shophouse Grand World", "size" => "7,200 m²", "type" => "Shophouse", "status" => "Sẵn sàng bàn giao", "image" => "componer/asset/image/duan.jpg"],
                     ["title" => "Dự án Green Bay", "size" => "15,300 m²", "type" => "Căn hộ", "status" => "Hoàn thiện", "image" => "componer/asset/image/duan.jpg"],
-                    ["title" => "Dự án Green Bay", "size" => "15,300 m²", "type" => "Căn hộ", "status" => "Hoàn thiện", "image" => "componer/asset/image/duan.jpg"],
-                    ["title" => "Dự án Green Bay", "size" => "15,300 m²", "type" => "Căn hộ", "status" => "Hoàn thiện", "image" => "componer/asset/image/duan.jpg"]
                 ];
 
                 foreach ($projects as $index => $project) {
